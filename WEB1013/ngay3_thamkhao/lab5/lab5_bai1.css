@@ -1,0 +1,30 @@
+
+
+p>img
+{
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px green;
+}
+
+p>img:hover
+{
+    background-color: aqua;
+    box-shadow: 5px 5px 20px red;   
+}
+
+
+/* 	Định dạng cho mỗi ảnh p>img{}:
+o	Kích thước (width x height) 20% x 150 pixel
+o	Khoảng đệm (padding): 10 pixel
+o	Lề (margin): 5 pixel
+o	Bo góc (border-radius): 10 pixel
+o	Màu nền (background-color): vàng
+o	Bóng (box-shadow): nhòe, độ dày 5 pixel, màu xanh
+	Khi đưa chuột lên ảnh p>img:hover{}
+o	Bóng (box-shadow): nhòe, độ dày 20 pixel, màu đỏ
+o	Màu nền (background-color): xanh nhạc (aqua) */

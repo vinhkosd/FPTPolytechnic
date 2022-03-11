@@ -1,0 +1,22 @@
+package BVASM;
+
+public class XeTai extends Xe {
+	
+	public int taitrong;
+
+	public XeTai() {
+		super();
+		this.taitrong = 0;
+	}
+
+	public XeTai(String mauxe, int tocdo) {
+		super(mauxe, tocdo);
+		this.taitrong = taitrong;
+	}
+	
+	public void xuatThongTin() {
+		super.xuatThongTin();
+		System.out.printf("Dung tich binh xang: %.2f l", this.dungtichbinhxang);
+	}
+
+}

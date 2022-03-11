@@ -1,0 +1,12 @@
+package BVASM;
+
+public class Xe {
+	
+	public String tenxe;
+	public int tocdo;
+
+	public Xe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

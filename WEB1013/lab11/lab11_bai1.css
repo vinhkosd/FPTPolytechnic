@@ -1,0 +1,42 @@
+body{
+    font-size: 15px;
+    font-family: 'Roboto-Regular';
+}
+
+td{
+    padding: 15px 20px 15px 20px;
+    border: solid #75b43a 1px;
+    /* border: none; */
+    background-color: rgb(243, 237, 226);
+    text-align: center;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-weight: 600;
+}
+
+tr{
+    border-bottom: solid #75b43a 1.5px;
+}
+
+.thead>td{
+    background-color: #75b43a;
+    color: white;
+    border: solid white 1.5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-center>td{
+    background-color: #e1f8cb;
+    color: black;
+}
+
+.text-red{
+    color:red;
+}

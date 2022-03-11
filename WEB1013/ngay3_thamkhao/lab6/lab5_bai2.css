@@ -1,0 +1,56 @@
+
+.column
+{
+    width: 25%;
+    float: left;
+}
+.san-pham
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten
+{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.san-pham .gia
+{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.san-pham .gia del
+{
+    color: gray;
+}
+
+/* 
+
+	Viết mã CSS cho các class .column, .san-pham, .ten và .giá
+o	.column{}
+	width:25%
+	float:left
+o	.san-pham{}
+	border-radius:10 pixel
+	box-shadow: nhòe, dày 5 pixel màu gray
+	padding:10 pixel
+	margin:5 pixel
+	text-align: giữa
+o	.san-pham .ten{}
+	font-size:larger
+	font-variant: hoa nhỏ
+	color: blue
+o	.san-pham img{}
+	max-width:95%
+o	.san-pham .gia{}
+	color: đỏ
+	font-weight:bold
+	font-size:larger
+o	.san-pham .gia del{}
+	color:gray */

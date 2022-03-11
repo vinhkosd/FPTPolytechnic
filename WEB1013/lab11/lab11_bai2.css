@@ -1,0 +1,33 @@
+body{
+    position: relative;
+}
+
+table{
+    border: none;
+    text-align: center;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n+1){
+    background-color: white;
+}
+
+tr:nth-child(2n){
+    background-color: #f1f1f1;
+}
+
+td{
+    padding: 10px 20px 10px 20px;
+    border: solid #88b8e2 2px;
+}
+
+.thead1>td{
+    background-color: #0170bf;
+    color: white;
+}
+
+.thead2>td{
+    background-color: #0170bf;
+    color: white;
+}

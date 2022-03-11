@@ -1,0 +1,79 @@
+div.col-25{
+    width: 25%;
+    float: left;
+}
+div>div.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+div>div>div.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+div>div>img.image{
+    max-width: 100%;
+    width: 270px;
+    height: 270px;
+    margin-bottom: 15px;
+}
+div>div>div.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+div>div>div>img.a1{
+    position: absolute;
+    right: 10px;
+    bottom: 120px;
+    width: 35px;
+    height: 35px;
+}
+div>div>div>img.a2{
+    position: absolute;
+    right: 10px;
+    bottom: 65px;
+    width: 40px;
+    height: 35px;
+}
+div>div>div>img.a3{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+div>div>img.new-icon{
+    max-width: 15%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+/*
+
+o	
+o	
+o	.prod>.icons{}
+	position:absolute
+	right:5 pixel
+	bottom:5 pixel
+	width:25 pixel
+o	.prod>.new-icon{}
+	position:absolute
+	top:0 pixel
+	right:0 pixel
+*/

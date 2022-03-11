@@ -1,0 +1,23 @@
+package BVASM;
+
+public class XeHoi extends Xe {
+	
+	public double dungtichbinhxang;
+
+	public XeHoi() {
+		super();
+		this.dungtichbinhxang = 0;
+	}
+
+	public XeHoi(String mauxe, int tocdo, double dungtichbinhxang) {
+		super(mauxe, tocdo);
+		this.dungtichbinhxang = dungtichbinhxang;
+		// TODO Auto-generated constructor stub
+	}
+
+	public void xuatThongTin() {
+		System.out.printf("THONG TIN XE\n");
+		System.out.printf("Mau xe: %s", this.mauxe);
+		System.out.printf("Toc do: %d km/h", this.tocdo);
+	}
+}

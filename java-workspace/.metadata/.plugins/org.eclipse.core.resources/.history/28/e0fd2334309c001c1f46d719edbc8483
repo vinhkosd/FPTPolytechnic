@@ -1,0 +1,14 @@
+package BVASM;
+
+import java.util.ArrayList;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ArrayList<Xe> list = new ArrayList<Xe>();
+		list.add(new XeHoi("Honda", 200, 2000));
+		list.add(new XeHoi("Toyota", 200, 2000));
+		list.add(new XeTai("KIA", 200, 2000));
+	}
+
+}

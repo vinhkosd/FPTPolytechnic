@@ -1,0 +1,14 @@
+package BVASM;
+
+public class XeHoi extends Xe {
+
+	public XeHoi() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public XeHoi(String mauxe, int tocdo) {
+		super(mauxe, tocdo);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,77 @@
+.col-25{
+    float: left;
+    width: 25%;
+}
+.prod{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.prod:hover{
+    box-shadow: 0 0 7px rgb(0, 0, 0);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.prod>.title{
+    font-weight: 700;
+    color: orange;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.prod>.price{
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    font-weight: 900;
+    color: orangered;
+    font-family: "Audiowide", sans-serif;
+}
+.prod>.img{
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod>.newicon{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 0px;
+    right: 0px;
+}
+
+.prod>.icons{
+    position: absolute;
+    width: 25px;
+    bottom: 0px;
+    right: 5px;
+}
+
+label{
+    display: flex;
+}
+
+input.form-control{
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    outline: none;
+    height: 30px;
+    padding: 5px;
+    margin-bottom:5px;
+}
+input.form-control:focus{
+    border: 1px solid black;
+}
+
+button{
+   width: 80px;
+   height: 30px;
+   outline: none;
+}

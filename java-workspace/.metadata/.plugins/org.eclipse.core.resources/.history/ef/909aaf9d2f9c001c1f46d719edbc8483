@@ -1,0 +1,14 @@
+package BVASM;
+
+public class XeTai extends Xe {
+
+	public XeTai() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public XeTai(String mauxe, int tocdo) {
+		super(mauxe, tocdo);
+		// TODO Auto-generated constructor stub
+	}
+
+}

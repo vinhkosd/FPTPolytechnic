@@ -1,0 +1,18 @@
+package BVASM;
+
+public class Xe {
+	
+	public String mauxe;
+	public int tocdo;
+
+	public Xe() {
+		this.mauxe = "chua co mau";
+		this.tocdo = 0;
+	}
+	
+	public Xe() {
+		this.mauxe = "chua co mau";
+		this.tocdo = 0;
+	}
+
+}

@@ -1,0 +1,21 @@
+package BVASM;
+
+public class XeTai extends Xe {
+	
+	public int taitrong;
+
+	public XeTai() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public XeTai(String mauxe, int tocdo) {
+		super(mauxe, tocdo);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void xuatThongTin() {
+		super.xuatThongTin();
+		System.out.printf("Dung tich binh xang: %.2f l", this.dungtichbinhxang);
+	}
+
+}

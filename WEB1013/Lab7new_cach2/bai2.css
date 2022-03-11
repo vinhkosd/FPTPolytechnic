@@ -1,0 +1,63 @@
+body{
+        padding:0px;
+        margin: 0px;
+}
+.container{ 
+        max-width: 1000px;
+        margin:0 auto;
+}
+.container>header{  
+        background-image: url('images/hinh-anh-banner-dien-may-thong-minh_033705387.png');
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 20%;
+}              
+.container>nav{ 
+        line-height: 40px;
+        background-color: orangered;
+        color: white;
+        font-variant: small-caps;
+        text-align: center;
+}
+.container>nav>a{
+        margin:0 10px;
+        color: white;
+        text-decoration: none;
+}
+
+
+
+.container>article{ 
+        min-height: 404px;
+        width: 80%;
+        background-color:white;
+        float: left;      
+}   
+.container>aside{   
+        min-height: 404px ;
+        width: 20%;
+        background-color: lightgray;
+        float: right;
+}
+.container>footer{  
+        border-top: 5px double orangered;
+        line-height: 50px;
+        background-color: lightcyan;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+}   
+.container>nav>a{   
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 20px;
+}
+.container>nav>a:hover{ 
+        color: red;
+        text-decoration: underline;    
+}                          
+iframe[name=page]{
+        width: 100%; 
+        min-height: 400px;
+}       
