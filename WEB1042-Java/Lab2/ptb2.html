@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab2 menu</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt("Nhập vào số a:");
+        var b = prompt("Nhập vào số b:");
+        var c = prompt("Nhập vào số c:");
+        do {
+            if (isNaN(a)) {
+                a = prompt("Bạn nhập a chưa đúng!\n\nVui lòng nhập lại a:");
+            }else if (isNaN(b)) {
+                b = prompt("Bạn nhập b chưa đúng!\n\nVui lòng nhập lại b:");
+            }else if (isNaN(c)) {
+                c = prompt("Bạn nhập c chưa đúng!\n\nVui lòng nhập lại c:");
+            } else {
+                a = parseInt(a);
+                b = parseInt(b);
+                c = parseInt(c);
+                break;
+            }
+        } while (true);
+        var delta = Math.pow(b, 2) - 4 * a * c;
+        if(delta < 0){
+            // Thông báo vô nghiệm
+            alert("Phương trình vô nghiệm")
+        }
+        else if (delta == 0){
+            // Tính và thông báo nghiệm kép
+            alert(`Phương trình có nghiệm kép là x0= ${-b/(2*a)}`)
+        }
+        else{
+            // Tính và thông báo 2 nghiệm phân biệt
+            alert(`Phương trình có nghiệm phân biệt là:\n
+                x1 = ${(-b + Math.sqrt(delta))/(2*a)}\n
+                x2 = ${(-b - Math.sqrt(delta))/(2*a)}\n
+            `)
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab2 bài 4</title>
+</head>
+
+<body>
+    <script>
+        var x = 10 + Math.round(5 * Math.random());
+        var a = prompt("Số nhập vào:");
+        do {
+            if (isNaN(a)) {
+                a = prompt("Bạn nhập chưa đúng!\n\nVui lòng nhập lại:");
+            } else {
+                a = parseInt(a);
+                break;
+            }
+        } while (true);
+        if(a==x){
+            alert("Chúc mừng, bạn đã đoán đúng");
+        } else if(a > x) {
+            alert("Giá trị của bạn lớn hơn số bí mật")
+        }else{
+            alert("Giá trị của bạn nhỏ hơn số bí mật")
+        }
+    </script>
+</body>
+
+</html>

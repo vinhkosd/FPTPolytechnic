@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab2 menu</title>
+</head>
+
+<body>
+    <script>
+        var select = prompt("Menu\n1.Chào buổi sáng\n2.Chào buổi trưa\n3.Chào buổi chiều\n4.Chào tạm biệt");
+        do {
+            if (isNaN(select)) {
+                select = prompt("Bạn nhập chưa đúng!\n\nMenu\n1.Chào buổi sáng\n2.Chào buổi trưa\n3.Chào buổi chiều\n4.Chào tạm biệt\nChọn một số (1-4).");
+            } else {
+                select = parseInt(select);
+                if ((select < 1) || (select > 4)) {
+                    select = prompt("Bạn nhập chưa đúng!\n\nMenu\n1.Chào buổi sáng\n2.Chào buổi trưa\n3.Chào buổi chiều\n4.Chào tạm biệt\nChọn một số (1-4).");
+                } else {
+                    break;
+                }
+            }
+        } while (true);
+        switch(parseInt(select, 10)){
+            case 1:
+                alert("Chào buổi sáng");
+            break;
+            case 2:
+                alert("Chào buổi trưa");
+            break;
+            case 3:
+                alert("Chào buổi chiều");
+            break;
+            case 4:
+                alert("Chào tạm biệt");
+            break;
+        }
+    </script>
+</body>
+
+</html>
